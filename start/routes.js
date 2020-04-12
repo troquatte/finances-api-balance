@@ -16,5 +16,5 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-Route.get('/read', "BalanceController.read");
+Route.post('/read', "BalanceController.read");
 Route.post('/create-or-update', "BalanceController.createOrUpdate");
